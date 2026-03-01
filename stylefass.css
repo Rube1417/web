@@ -1,0 +1,71 @@
+/* Background Image */
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background: url("rosales.jpg") center / cover no-repeat;
+    height: 100vh;
+}
+
+/* Dark Overlay */
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+}
+
+/* Title */
+.title {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+/* Container */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+/* Card Style */
+.card {
+    background: #e6e6e6;
+    color: black;
+    width: 350px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* Headings */
+.card h2 {
+    color: #0b3d91;
+    letter-spacing: 1px;
+}
+
+/* Line under heading */
+.card hr {
+    border: 1px solid #0b3d91;
+    width: 80%;
+    margin: 10px auto 20px auto;
+}
+
+.card {
+    background: #e6e6e6;
+    color: black;
+    width: 650px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    
+    transition: all 0.4s ease;   /* Smooth animation */
+}
+
+/* 🔥 Hover Effect */
+.card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+}
